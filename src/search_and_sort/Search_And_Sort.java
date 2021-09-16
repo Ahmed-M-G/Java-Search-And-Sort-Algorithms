@@ -29,7 +29,7 @@ public class Search_And_Sort {
         Arrays.sort(arr);
         int s  = 0, e = arr.length-1 , mid;
         
-        while(e >= e){
+        while(e >= s){
             mid = s + ((e - s) / 2);
             if(arr[mid] == n)
                 return mid;
